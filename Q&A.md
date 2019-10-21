@@ -15,6 +15,8 @@
     simplices, this shouldn't take too much space.
     
     [jlazovskis] Partial answer: Aberdeen group is also working on understanding which "communities" (neuron with high clustering coefficient and all its neighbors) rather than simplices are interesting. GIDs of neurons in top 15 communities are in <code>home/lazovski/visualizing-neuron-communities/gid_position_voltage_spikes/n_gid</code> for <code>n</code> in <code>00,...,14</code>.
+    
+    [Kepsa] It might be interesting to stimulate input neurons or simplices in few top communities. So to stimulate simplices whose sink is the neuron in the center of a community. The idea I'm thinking here is to see whether most of observed activity still propagates through the most densily connected communities. And if so, how many of the communities are activated with similar levels if stimulus is applied to only few of them.
    
     
 ## Template
