@@ -27,5 +27,5 @@
 
 ## New experiments
 
-+ For each neuron we can compute the number of simplices for which that is a sink/source, we can then look at the distribution
-  of sink/source neurons by type.
++ [JasonPSmith] For each neuron we can compute the number of simplices for which that is a sink/source,
+  we can then look at the distribution of sink/source neurons by type.
