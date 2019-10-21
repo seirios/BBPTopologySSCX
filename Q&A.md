@@ -13,6 +13,7 @@
     quantity of data this produces. Using the count we have for the somatosensory I estimate we'd need at least 0.5TB to store
     a list of all the GIDs of all the simplices. What might be better is to just store the GIDs of all the top dimensional
     simplices, this shouldn't take too much space.
+    
     [jlazovskis] Partial answer: Aberdeen group is also working on understanding which "communities" (neuron with high clustering coefficient and all its neighbors) rather than simplices are interesting. GIDs of neurons in top 15 communities are in <code>home/lazovski/visualizing-neuron-communities/gid_position_voltage_spikes/n_gid</code> for <code>n</code> in <code>00,...,14</code>.
    
     
