@@ -29,3 +29,5 @@
 
 + [JasonPSmith] For each neuron G we can compute the number of simplices for which G is a sink/source,
   we can then look at the distribution of sink/source neurons by type.
+
+    - [seirios] Cool! Definitely, doing analyses at the level of cell type is the next step!
