@@ -4,7 +4,7 @@
 
 + Whole somatosensory cortex
 	+ Not completely ready, will be 3 versions when done. 
-	+ Structural data is accessable in Project 64 folder (subfolder called "circuits").
+	+ Old structural data is accessable in Project 64 folder (subfolder called "circuits").
 	+ Nicolas can extract structural data, so no need for Sirio to process it for rest of group.
 
 + Stimuli
