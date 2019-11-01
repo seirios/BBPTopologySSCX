@@ -41,7 +41,11 @@ For clarity it may be easier to give each experiments his own file.
 
 We soon(ish) will have access to three S1v6 somatosensory circuit each based on the same rat statistics but with different seeds (as opposed to frontier where we had five different rat and an average one).
 
-Such a circuit was already created a  year ago, those three  have seen some improvment (in what?) from the earlier version. 
+[seirios] The variation between the three builds is in the cell densities, and in the random seeds that go into every part of circuit building (cell placement, morphology selection, sampling of touches, etc.).
+
+Such a circuit was already created a year ago, those three have seen some improvment (in what?) from the earlier version. 
+
+[seirios] The new circuits are built using the latest pipeline, with a better atlas and an updated connection recipe.
 
 To have some numbers in mind here is the results of the counting of simplices of this earlier circuit that Gard did a year ago.
 
@@ -58,9 +62,10 @@ To have some numbers in mind here is the results of the counting of simplices of
 
 We probably cannot compute any homology on such a big complexe, but possibly on smaller subgraph.
 
+[seirios] I have a first version of the central region (one microcolumn's width away from the border), and it's 1.22M cells, so a bit more manageable than the whole circuit (~1.7M).
 
 # Structural vs activity
-The experiments we want to do can be divided  roughly into the one who needs activity and the one who only looks at the circuit( structural). Obviously we will use structural results also with activity.
+The experiments we want to do can be divided  roughly into the one who needs activity and the one who only looks at the circuit (structural). Obviously we will use structural results also with activity.
 So first lets descibe the *easy* structural computation and their variation
 
 ## Structural Experiments
@@ -75,13 +80,14 @@ The goal here is to redo the computation Gard Did on the three new circuit. We t
 **How to do it**:
 This is pretty straightforward with flagsercount, but it can takes time. Also storing simplices might not be possible (at least not all of them) something that would often be nice. One possible way to get around this is to only store the highest dimension, to store a random subset, or to store simplices for smaller (meaningfull) subgraph, whatever meaningfull would mean.
 
+[seirios] According to Jason's estimate, it would take 0.5TB to store all simplices. That sounds perfectly doable!
+
 **Variations**:  
 Here is a non comprehensive list of variation around this, some may be stupid/useless:
 
 + Divide the big circuit into *columns* then compare them or compare to v5
 + Grow the circuit from a small one to the complete one (maybe start with a cylinder to keep all layers then increase the radius)
-+ On the same idea, I think Henry M. asked what is the smallest region with highest dimensional simplices (this would be the smallest volume of the highest dimensional simplices
-but I think he meant more on something related to the previous item)
++ On the same idea, I think Henry M. asked what is the smallest region with highest dimensional simplices (this would be the smallest volume of the highest dimensional simplices but I think he meant more on something related to the previous item)
 + Harder but may be possible, count other motifs (cliques or tournaments), all motifs on 3 vertices 
 
  [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
@@ -90,13 +96,14 @@ but I think he meant more on something related to the previous item)
 + divide by excitatory/inhibitory
 + by layers
 
+[seirios] More generally, divide by morphological type, as that comprises both layer and excitatory/inhibitory and allows studying pathways (e.g. connections between some class of interneurons and pyramidal cells), which are biologically relevant.
+
 ### Describing Simplices
 **Goal**:  
 Understand simplices with respect to usual descriptor of the neuron, here we are still looking at thing without any activity.
 
 **How to do it**:
-With the list of simplices its elementary to do. What takes time is to analyze and trying to makes sense of what you see. There is a ton of variation 
-so its easy to get lost.
+With the list of simplices its elementary to do. What takes time is to analyze and trying to makes sense of what you see. There is a ton of variation so its easy to get lost.
 
 **Variations**:
 So the goal is to look at things like *information given by simplices* vs *information of the neuron*.
@@ -116,15 +123,19 @@ We can also look at population and not only at a neuron level, ie fig3.C.
 
 ## Activity Experiments
 
-Like we discussed on the meeting of october the 29th, we need to define stimuli. This is probably something that would need to be discussed in the next meeting 
-with Henry M. and maybe before with Michael.
+Like we discussed on the meeting of october the 29th, we need to define stimuli. This is probably something that would need to be discussed in the next meeting with Henry M. and maybe before with Michael.
 
 I think that in the context of following frontiers protocol, we should take the same stimuli (but this might be a bad idea for many reason)
 + [Figure 4](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g004.jpg)
 
 In any case this stimuli were designed for one column, so even if we settled on using this, how do we apply this to the whole SSCx?
+
+[seirios] There are thalamic fibers all over the place, so in principle we have only to feed the spike trains through the fibers.
+
 One idea was to activate only one column (so very close to frontiers). At the opposite there is giving the stimuli to the whole network and every combination in between.
 Also even this is not well defined for me, is the circuit strictly divided into column to which we can give the same stimulus or is it more blurry?
+
+[seirios] The circuit is one big mass of cells and is not divided into columns. However, we can define columns at any location and of any size.
 
 For now lets suppose we have some stimuli given to the circuit, and describes the experiments:
 
@@ -136,6 +147,8 @@ compute pearson correlation between any pairs of neuron. This would be a prelimi
 
 I'm not sure how much time it'd take to compute those though. I think computing correlation on 30K took a few minutes so on 1.7M it may be 50^2 times longer so at least a week.
 Obviously we can use many nodes (I'm also not sure if the computation was using all the core It was a scipy thing so I would say no). Overall if we are efficient with parallelization it should actually be pretty fast (250 cpu per node should make this takes a few hours top).
+
+[seirios] For maximum efficiency, I'd vouch for custom C code, which I volunteer to write. We'd only have to define exactly how we are computing the correlations.
 
 **Variations**:
 Its not always clear what data we want to compute correlation on. By this I mean we can have many correlation for each simulation, or we can concatenate those( what they did in frontier) to get only one number per pair of neuron.
