@@ -137,6 +137,8 @@ Also even this is not well defined for me, is the circuit strictly divided into 
 
 [seirios] The circuit is one big mass of cells and is not divided into columns. However, we can define columns at any location and of any size.
 
+[seirios] Regarding the runtime of the simulations. For the whole circuit it's about 13h and for a column it's between 1-2h (depending on its size). This is for 4 seconds of biological time.
+
 For now lets suppose we have some stimuli given to the circuit, and describes the experiments:
 
 ### Correlations
