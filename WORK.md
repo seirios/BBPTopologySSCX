@@ -161,6 +161,10 @@ Once TR computed we can do:
 + [Figure 6](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g006.jpg)C doesnt necesseraly require 6B,
 + [Figure 6](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g006.jpg)A,B,D require betti computation but we could try just with cell count or EC
 
+### Calcium Scan Activity
+
+It might be interesting to look at those.
+
 
 
 
