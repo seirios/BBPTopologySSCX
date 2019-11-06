@@ -81,6 +81,7 @@ The goal here is to redo the computation Gard Did on the three new circuit. We t
 This is pretty straightforward with flagsercount, but it can takes time. Also storing simplices might not be possible (at least not all of them) something that would often be nice. One possible way to get around this is to only store the highest dimension, to store a random subset, or to store simplices for smaller (meaningfull) subgraph, whatever meaningfull would mean.
 
 [seirios] According to Jason's estimate, it would take 0.5TB to store all simplices. That sounds perfectly doable!
+[JasonPSmith] Note that the 0.5TB is very much a lower bound, I expect it is higher, how much higher depends on how clever we are about storing it. Also on run times, to compute the simplex counts on the previous somatosensory circuit took 7.5hrs, using 256 cores, and used 55GB of memory.
 
 **Variations**:  
 Here is a non comprehensive list of variation around this, some may be stupid/useless:
