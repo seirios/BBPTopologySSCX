@@ -90,6 +90,7 @@ Here is a non comprehensive list of variation around this, some may be stupid/us
 + Grow the circuit from a small one to the complete one (maybe start with a cylinder to keep all layers then increase the radius)
 + On the same idea, I think Henry M. asked what is the smallest region with highest dimensional simplices (this would be the smallest volume of the highest dimensional simplices but I think he meant more on something related to the previous item)
 + Harder but may be possible, count other motifs (cliques or tournaments), all motifs on 3 vertices 
+[JasonPSmith] Counting tournaments should be easy and I think is worth doing. I have a variation of flagser-count that does this.
 
  [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
  give us some other things we can do
