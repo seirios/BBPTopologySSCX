@@ -100,6 +100,8 @@ Here is a non comprehensive list of variation around this, some may be stupid/us
 
 [seirios] More generally, divide by morphological type, as that comprises both layer and excitatory/inhibitory and allows studying pathways (e.g. connections between some class of interneurons and pyramidal cells), which are biologically relevant.
 
+[JasonPSmith] We might be able to do some homology computations. If we restrict to a column, we might be able to compute homology in some dimensions, as in frontiers.
+
 ### Describing Simplices
 **Goal**:  
 Understand simplices with respect to usual descriptor of the neuron, here we are still looking at thing without any activity.
