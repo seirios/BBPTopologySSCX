@@ -5,7 +5,7 @@ Unless specified otherwise everything is under :
 /gpfs/bbp.cscs.ch/project/proj64/
 
 **home/bolanos/2019-11-14_central_flick_full**  
-4s simulation when we feed some stimulus (to be precised) to the central column (as defined by S.)
+4s simulation when we feed a flick stimulus (one spike in 16 fibers at 2s) to the central column (as defined by S.)
 
 **home/bolanos/2019-11-14_S1_slices**  
 Subdivivision of the S1.v6 circuit into "horizontal" layer following the shape of the whole thing.
