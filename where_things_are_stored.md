@@ -11,12 +11,12 @@ Unless specified otherwise everything is under :
 Subdivivision of the S1.v6 circuit into "horizontal" layer following the shape of the whole thing.
 Each subdivision is simply a text file containing the gids of the neurons.  
 Here is some vizualization (its a sample of all thing), for some slice, especially the one close to the center since there is some disconnection happening
-+ [slice00-03 aka outer ring](fig/slice03.png)
-+ [slice24-25](fig/slice24-25.png)
-+ [slice25-26](fig/slice25-26.png)
-+ [slice26-27](fig/slice26-27.png)
-+ [slice27-28](fig/slice27-28.png)
-+ [slice28-NNN](fig/slice28-NNN.png)
++ [slice00-03 aka outer ring](fig/Slice03.png)
++ [slice24-25](fig/Slice24-25.png)
++ [slice25-26](fig/Slice25-26.png)
++ [slice26-27](fig/Slice26-27.png)
++ [slice27-28](fig/Slice27-28.png)
++ [slice28-NNN](fig/Slice28-NNN.png)
 
 **home/bolanos/2019-10-02_bluelight_test**  
 Contains Sirios preliminary simulation done begining of october
