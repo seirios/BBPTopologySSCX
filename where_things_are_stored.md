@@ -11,7 +11,7 @@ Unless specified otherwise everything is under :
 Subdivivision of the S1.v6 circuit into "horizontal" layer following the shape of the whole thing.
 Each subdivision is simply a text file containing the gids of the neurons.  
 Here is some vizualization (its a sample of all thing), for some slice, especially the one close to the center since there is some disconnection happening
-+ [slice00-03 aka outer ring](fig/Slice03.png)
++ [slice00-03 outer onion layer](fig/Slice03.png)
 + [slice24-25](fig/Slice24-25.png)
 + [slice25-26](fig/Slice25-26.png)
 + [slice26-27](fig/Slice26-27.png)
@@ -19,12 +19,16 @@ Here is some vizualization (its a sample of all thing), for some slice, especial
 + [slice28-NNN](fig/Slice28-NNN.png)
 
 
-**home/bolanos/2019-11-14_S1_radial**
+**home/bolanos/2019-11-14_S1_radial**  
 Subdivision of S1.v6, starting from a small cylinder across all layers, then growing (so each subdivision is a ring except the last one which is everything minus one big cylinder
 + [radial-030-000 only 459 neuron](fig/radial-030-000.png)
 + [radial-060-000](fig/radial-060-030.png)
 + [radial-660-630](fig/radial-660-630.png)
 + [radial-NNN-660](fig/radial-NNN-660.png)
+
+**home/bolanos/2019-11-14_S1_central**  
+Subdivision of S1.v6 at some distance to the border
+central_gids.txt is the one with saturated connectivity.
 
 
 **home/bolanos/2019-10-02_bluelight_test**  
