@@ -18,6 +18,15 @@ Here is some vizualization (its a sample of all thing), for some slice, especial
 + [slice27-28](fig/Slice27-28.png)
 + [slice28-NNN](fig/Slice28-NNN.png)
 
+
+**home/bolanos/2019-11-14_S1_radial**
+Subdivision of S1.v6, starting from a small cylinder across all layers, then growing (so each subdivision is a ring except the last one which is everything minus one big cylinder
++ [radial-030-000 only 459 neuron](fig/radial-030-000.png)
++ [radial-060-000](fig/radial-060-030.png)
++ [radial-660-630](fig/radial-660-630.png)
++ [radial-NNN-660](fig/radial-NNN-660.png)
+
+
 **home/bolanos/2019-10-02_bluelight_test**  
 Contains Sirios preliminary simulation done begining of october
 
