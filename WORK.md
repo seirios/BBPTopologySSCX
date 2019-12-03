@@ -92,7 +92,7 @@ Here is a non comprehensive list of variation around this, some may be stupid/us
 + On the same idea, I think Henry M. asked what is the smallest region with highest dimensional simplices (this would be the smallest volume of the highest dimensional simplices but I think he meant more on something related to the previous item)
 + Harder but may be possible, count other motifs (cliques or tournaments), all motifs on 3 vertices 
 [JasonPSmith] Counting tournaments should be easy and I think is worth doing. I have a variation of flagser-count that does this.
-+[JasonPSmith] Kathryn recommended looking at pathways, in particular from L4 excitatory to L2/3 excitatory. Do we get more 4 at source and L2/3 at sink?
++ [JasonPSmith] Kathryn recommended looking at pathways, in particular from L4 excitatory to L2/3 excitatory. Do we get more 4 at source and L2/3 at sink?
 
  [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
  give us some other things we can do
@@ -137,6 +137,7 @@ I think that in the context of following frontiers protocol, we should take the 
 In any case this stimuli were designed for one column, so even if we settled on using this, how do we apply this to the whole SSCx?
 
 [seirios] There are thalamic fibers all over the place, so in principle we have only to feed the spike trains through the fibers.
+
 [JasonPSmith] Michael said using the same stimuli as frontiers is the best approach.
 
 One idea was to activate only one column (so very close to frontiers). At the opposite there is giving the stimuli to the whole network and every combination in between.
@@ -158,6 +159,7 @@ compute pearson correlation between any pairs of neuron. This would be a prelimi
 
 I'm not sure how much time it'd take to compute those though. I think computing correlation on 30K took a few minutes so on 1.7M it may be 50^2 times longer so at least a week.
 Obviously we can use many nodes (I'm also not sure if the computation was using all the core It was a scipy thing so I would say no). Overall if we are efficient with parallelization it should actually be pretty fast (250 cpu per node should make this takes a few hours top).
+
 [JasonPSmith] From the meeting: We can restrict to pairs that are connected to each other.
 
 [seirios] For maximum efficiency, I'd vouch for custom C code, which I volunteer to write. We'd only have to define exactly how we are computing the correlations.
