@@ -86,7 +86,7 @@ This is pretty straightforward with flagsercount, but it can takes time. Also st
 
 [JasonPSmith] I have adapted flagser to print the simplices in a compressed way. So each simplex is stored as at most 4 x 64 bit ints. The output has a size of 1.6TB.
 
-[seirios] Just for fun, I implemented independently the simplex count and got the exact same results as shown above! Total runtime was 50 min (33 min for the longest job), splitting the total number of cells among 18 jobs (max 100000 cells per job) of one node each, using 72 cores and 271 GB of RAM per node.
+[seirios] Just for fun, I implemented independently the simplex count and got the exact same results as shown above! Total runtime was 50 min (33 min for the longest job), splitting the total number of cells among 18 jobs (max 100000 cells per job) of one node each, using 72 cores and 285 GB of RAM per node.
 
 **Variations**:  
 Here is a non comprehensive list of variation around this, some may be stupid/useless:
