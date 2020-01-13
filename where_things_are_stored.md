@@ -46,3 +46,33 @@ Contains old circuit information (type, xyz location, gid, etc). All GIDs are sh
 **/gpfs/bbp.cscs.ch/project/proj102/simplices/S1V6**
 Contains the list of all simplices of the S1v6 circuit, so far only dim 6,7,8 & 9 are stored, (due to space issues)
 
+**/gpfs/bbp.cscs.ch/home/ninin/proj102/matrices/S1v6**  
+Contains the old circuit in sparse format. You have either indices.npy and indptr.npy (should be csr) or coo format with col and row.  
+The circuit is  here:  
+/gpfs/bbp.cscs.ch/project/proj64/circuits/S1.v6a/20171206/  
+
+The easiest way to access it is either via bluepy or directly looking at the nrn h5 file.  
+/gpfs/bbp.cscs.ch/project/proj64/circuits/S1.v6a/20171206/ncsFunctionalAllRecipePathways/nrn.h5  
+This file contain a dataset name "a+gid" for each neuron. This dataset contains an Mx19 dataset with M=number of presynapic neuron (or postsynapic for rn_efferent.h5). Here are the description I was given on those file that explain the 19 entry:
+/a+gid (e.g. a60129)  
+0: Connecting gid: presynaptic for nrn.h5, postsynaptic for nrn_efferent.h5  
+1: Axonal delay: computed using the distance of the presynaptic axon to the post synaptic terminal (milliseconds) (float)  
+2: postSection ID (int)  
+3: postSegment ID (int)  
+4: The post distance (in microns) of the synapse from the begining of the post segment 3D point, or \-1 for soma connections  (float)  
+5: preSection ID (int)  
+6: preSegment ID (int)  
+7: The pre distance (in microns) of the synapse from the begining of the pre segment  3D point (float)  
+8: g_synX is the conductance of the synapse (nanosiemens) (float)  
+9: u_syn is the u parameter in the TM model (0-1) (float)  
+10: d_syn is the time constant of depression (milliseconds) (float, was 'int' before 2017/10/13 see https://bbpteam.epfl.ch/project/issues/browse/BLPY-108)  
+11: f_syn is the time constant of facilitation (milliseconds) (float, was 'int' before 2017/10/13 see https://bbpteam.epfl.ch/project/issues/browse/BLPY-108)  
+12: DTC - Decay Time Constant (milliseconds) (float)  
+13: synapseType, the synapse type Inhibitory < 100 or Excitatory >= 100 (specific value corresponds to generating recipe)  
+14: The morphology type of the pre neuron.  Index corresponds with circuit.mvd2  
+15-16: BranchOrder of the dendrite, BranchOrder of the axon (int,int)  
+17: ASE Absolute Synaptic Efficacy (Millivolts) (int)  
+18: Branch Type from the post neuron(0 for soma, 1 for axon and 2 for basal and 3 for apical) (int)  
+
+**/gpfs/bbp.cscs.ch/home/ninin/proj102/matrices/bio1**
+Here we should extract a sparse version of the bio1 circuit.
