@@ -49,7 +49,7 @@ Contains old circuit information (type, xyz location, gid, etc). All GIDs are sh
 **/gpfs/bbp.cscs.ch/project/proj102/simplices/S1V6**
 Contains the list of all simplices of the S1v6 circuit, so far only dim 6,7,8 & 9 are stored, (due to space issues)
 
-**/gpfs/bbp.cscs.ch/home/ninin/proj102/matrices/S1v6**  
+**/gpfs/bbp.cscs.ch/project/proj102/matrices/S1v6**  
 Contains the old circuit in sparse format. You have either indices.npy and indptr.npy (should be csr) or coo format with col and row.  
 The circuit is  here:  
 /gpfs/bbp.cscs.ch/project/proj64/circuits/S1.v6a/20171206/  
@@ -77,5 +77,9 @@ This file contain a dataset name "a+gid" for each neuron. This dataset contains 
 17: ASE Absolute Synaptic Efficacy (Millivolts) (int)  
 18: Branch Type from the post neuron(0 for soma, 1 for axon and 2 for basal and 3 for apical) (int)  
 
-**/gpfs/bbp.cscs.ch/home/ninin/proj102/matrices/bio1**
+
+**/gpfs/bbp.cscs.ch/project/proj83/circuits/Bio_M/20191206**  
+Path to the BioM circuit, in particular the connection data are stored in a sonata format located under connectome/functional/edges.sonata
+
+**/gpfs/bbp.cscs.ch/project/proj102/matrices/bio1**
 Here we should extract a sparse version of the bio1 circuit.
