@@ -81,5 +81,5 @@ This file contain a dataset name "a+gid" for each neuron. This dataset contains 
 **/gpfs/bbp.cscs.ch/project/proj83/circuits/Bio_M/20191206**  
 Path to the BioM circuit, in particular the connection data are stored in a sonata format located under connectome/functional/edges.sonata
 
-**/gpfs/bbp.cscs.ch/project/proj102/matrices/bio1**
-Here we should extract a sparse version of the bio1 circuit.
+**/gpfs/bbp.cscs.ch/project/proj102/matrices/bioM**
+Here we should extract a sparse version of the bioM circuit.
