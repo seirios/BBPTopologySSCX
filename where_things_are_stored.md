@@ -7,6 +7,17 @@ Unless specified otherwise everything is under :
 **home/bolanos/2019-11-14_central_flick_full**  
 4s simulation when we feed a flick stimulus (one spike in 16 fibers at 2s) to the central column (as defined by S.)
 
+**home/bolanos/2019-11-14_S1_central**  
+Subdivision of S1.v6 at some distance to the border
+central_gids.txt is the one with saturated connectivity.
+We start with a pretty big subdivision a small distance away from the border then we increase the distance.
+This gids_i.txt\subset gids_j.txt if i>j , so we have a filtration. Here is some exemple:
++ gids_03.txt 1 468 240 neurons
++ gids_04.txt 1 405 263 neurons (subset of gids_03)
++ gids_08.txt aka central gids 1 090 860 neurons
++ gids_28.txt 28817 the smallest one the size roughly of a microcircuit.
+
+
 **home/bolanos/2019-11-14_S1_slices**  
 Subdivivision of the S1.v6 circuit into "horizontal" layer following the shape of the whole thing.
 Each subdivision is simply a text file containing the gids of the neurons.  
@@ -26,10 +37,7 @@ Subdivision of S1.v6, starting from a small cylinder across all layers, then gro
 + [radial-660-630](fig/radial-660-630.png)
 + [radial-NNN-660](fig/radial-NNN-660.png)
 
-**home/bolanos/2019-11-14_S1_central**  
-Subdivision of S1.v6 at some distance to the border
-central_gids.txt is the one with saturated connectivity.
-
+ 
 
 **home/bolanos/2019-10-02_bluelight_test**  
 Contains Sirios preliminary simulation done begining of october
