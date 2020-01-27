@@ -28,7 +28,7 @@ Here is some vizualization (its a sample of all thing), for some slice, especial
 + [slice25-26](fig/Slice25-26.png)
 + [slice26-27](fig/Slice26-27.png)
 + [slice27-28](fig/Slice27-28.png)
-+ [slice28-NNN](fig/Slice28-NNN.png)
++ [slice28-NNN](fig/Slice28-NNN.png) (the same one as gids_28)
 
 
 **home/bolanos/2019-11-14_S1_radial**  
