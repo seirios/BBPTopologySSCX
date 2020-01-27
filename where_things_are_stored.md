@@ -21,6 +21,7 @@ This gids_i.txt\subset gids_j.txt if i>j , so we have a filtration. Here is some
 **home/bolanos/2019-11-14_S1_slices**  
 Subdivivision of the S1.v6 circuit into "horizontal" layer following the shape of the whole thing.
 Each subdivision is simply a text file containing the gids of the neurons.  
+This is actually the "derivative of the previous", ie  gids_26-27=gids_26 -gids_27  
 Here is some vizualization (its a sample of all thing), for some slice, especially the one close to the center since there is some disconnection happening
 + [slice00-03 outer onion layer](fig/Slice03.png)
 + [slice24-25](fig/Slice24-25.png)
