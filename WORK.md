@@ -7,7 +7,7 @@
 [jlazovskis] This is about redoing the Frontiers analysis on a larger circuit, either the whole somatosensory cortex, or a cylinder of it.
 
 + [Figure 2](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g002.jpg)
-    + [Henri] I'll contact Michael concerning the general biology and Peter's rule and try to work on Figure 2.
+    + [Henri] I'll contact Michael concerning the general biology and Peter's rule and try to work on Figure 2B.
 
 + [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
     + A1 - A3 will be different, as now L2 and L3 are separate. 
