@@ -11,6 +11,7 @@
 
 + [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
     + A1 - A3 will be different, as now L2 and L3 are separate. 
+    + [jlazovskis] I'll redo figures B,C,D,E with the data that Jason has collected
 
 + [Figure 4](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g004.jpg)
     + E is very interesting
