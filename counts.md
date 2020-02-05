@@ -1,17 +1,17 @@
 Here are the simplex counts computed so far:
 
 S1V6 full circuit:  
-1722605  
-1059736608  
-22705492972  
-58421988203  
-30838397649  
-5082042041  
-337370565  
-9360457  
-108025  
-458  
-Euler = -10690035951
+0:     1 722 605 (2M)  
+1: 1 059 736 608 (1B)  
+2:22 705 492 972 (22B)     
+3:58 421 988 203 (58B)  
+4:30 838 397 649 (30B)  
+5: 5 082 042 041 (5B)  
+6:   337 370 565 (0.3B)   
+7:     9 360 457 (9M)  
+8:       108 025  
+9:           458  
+Euler = -10690035951  
 
 S1V6 central gids:  
 1722605  [Nicolas] this number is not right its a side effect of keeping submatrix the same size, we should look up the right ones  
