@@ -52,6 +52,9 @@ A panda dataframe with the list of neuron of S1.V6 (aka old circuit) and their i
 **/gpfs/bbp.cscs.ch/project/proj102/neuron_data/neuron_data_bioM.pickle**  
 Same thing with the bioM circuit  
 
+**/gpfs/bbp.cscs.ch/project/proj102/counts/bioM/simplices_per_neuron_by_dim.pkl**  
+A pandas dataframe with the list of neurons (same indexing as above, starting at 1), containg number of n-simplices each neuron is contained in, for n=1...9
+
 **/gpfs/bbp.cscs.ch/home/lazovski/visualizing-neuron-communities/cons_locs_pathways_mc2_Column.h5**<br>
 Contains old circuit information (type, xyz location, gid, etc). All GIDs are shifted by 62693. I think this is also available on the BlueBrain Portal somewhere. [Nicolas] I believe this one is the v5 there might be some confusion because I wrote "oldcircuit.pickle" for the first version of s1v6 we had (hence old in regard to the new one we will get) [jlazovskis] Agreed. I'll keep it here for now because I'm used to accessing this, not yet the newer-older files.
 
