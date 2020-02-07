@@ -11,8 +11,8 @@
 
 + [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
     + A1 - A3 will be different, as now L2 and L3 are separate.
-    + [jlazovskis] Figures A1-A3 done, [see here](../master/fig/fig3-a1a2a3.png). Code in `proj102/lazovski/frontiers-figs-redo/5_make_visuals_a1_a2_a3.py`.
-    + [jlazovskis] I'll redo figures B,C,D,E with the data that Jason has collected
+    + [jlazovskis] [Figures A1-A3](../master/fig/fig3-a1a2a3.png), code in `proj102/lazovski/frontiers-figs-redo/5_make_visuals_a1_a2_a3.py`.
+    + [jlazovskis] [Figure 3B with variants](../master/fig/fig3-b.png), code in `proj102/lazovski/frontiers-figs-redo/5_make_visuals_b.py`.
 
 + [Figure 4](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g004.jpg)
     + E is very interesting
