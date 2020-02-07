@@ -8,6 +8,7 @@
 
 + [Figure 2](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g002.jpg)
     + [Henri] I'll contact Michael concerning the general biology and Peter's rule and try to work on Figure 2B.
+    + [Henri] So Michael replied that Peter's rule is not feasible, so I just do BioM, ER and general bio.
 
 + [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
     + A1 - A3 will be different, as now L2 and L3 are separate.
