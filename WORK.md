@@ -13,7 +13,11 @@
 + [Figure 3](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g003.jpg)
     + A1 - A3 will be different, as now L2 and L3 are separate.
     + [jlazovskis] [Figures A1-A3](../master/fig/fig3-a1a2a3.png), code in `proj102/lazovski/frontiers-figs-redo/5_make_visuals_a1_a2_a3.py`.
-    + [jlazovskis] [Figure 3B with variants](../master/fig/fig3-b.png), code in `proj102/lazovski/frontiers-figs-redo/5_make_visuals_b.py`.
+        - I think log comparison of all/inh/exc is more interesting than just inhibitory (A2)
+    + [jlazovskis] [Figure B](../master/fig/fig3-b.png), code in `proj102/lazovski/frontiers-figs-redo/5_make_visuals_b.py`.
+        - Added other dimensions (instead of just 3D) 
+    + [jlazovskis] [Figure C](../master/fig/fig3-c.png), code in `proj102/lazovski/frontiers-figs-redo/5_make_visuals_c.py`.
+        - Unclear what is done in Frontiers. Says mean in text, but one plot seems to have two bars.
 
 + [Figure 4](https://www.frontiersin.org/files/Articles/266051/fncom-11-00048-HTML-r3/image_m/fncom-11-00048-g004.jpg)
     + E is very interesting
