@@ -1,3 +1,5 @@
+This folder contains some plots about the structure of the cliques by neuron type, the current images are:
+
 Neuron_as_sink: For each neuron the number of directed cliques with that neuron as the sink
 
 Neuron_as_source: For each neuron the number of directed cliques with that neuron as the source
