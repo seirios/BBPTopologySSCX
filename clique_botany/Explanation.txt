@@ -1,4 +1,4 @@
-This folder contains some plots and data about the structure of the cliques by neuron type, the current files are:
+This folder contains some plots and data about the structure of the cliques by neuron type in Bio1, the current files are:
 
 Neuron_as_sink: For each neuron the number of directed cliques with that neuron as the sink
 
