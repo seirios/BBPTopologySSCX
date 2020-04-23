@@ -1,0 +1,15 @@
+Neuron_as_sink: For each neuron the number of directed cliques with that neuron as the sink
+
+Neuron_as_source: For each neuron the number of directed cliques with that neuron as the source
+
+Sink_type: For each neuron type the number of directed cliques with that neuron type as the sink
+
+Source_type: For each neuron type the number of directed cliques with that neuron type as the source
+
+Sink_type_dim: The same as Sink_type, but broken down by dimension
+
+Source_type_dim: The same as Source_type, but broken down by dimension
+
+Source_and_sink_heatmap: A heatmap of the number of cliques with a given neuron type as the source and given neuron type as the sink
+
+Source_and_sink_heatmap_dim: The same as Source_and_sink_heatmap, but broken down by dimension
