@@ -1,4 +1,4 @@
-This folder contains some plots about the structure of the cliques by neuron type, the current images are:
+This folder contains some plots and data about the structure of the cliques by neuron type, the current files are:
 
 Neuron_as_sink: For each neuron the number of directed cliques with that neuron as the sink
 
@@ -15,3 +15,7 @@ Source_type_dim: The same as Source_type, but broken down by dimension
 Source_and_sink_heatmap: A heatmap of the number of cliques with a given neuron type as the source and given neuron type as the sink
 
 Source_and_sink_heatmap_dim: The same as Source_and_sink_heatmap, but broken down by dimension
+
+top_simplex_types.txt: For each dimension the top 5 simplex types are listed, where a simplex type is a list of all the neuron types in the simplex
+
+types.txt: The number of neurons of each neuron type.
