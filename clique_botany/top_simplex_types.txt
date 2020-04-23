@@ -1,0 +1,410 @@
+Top 50 simplex types for each dimension:
+
+dim 2
+['L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A '] : 295370673
+['L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 214107105
+['L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 205410898
+['L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B '] : 205405396
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 154288152
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 146353678
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 138917859
+['L3_TPC:A ', 'L2_TPC:B ', 'L2_TPC:B '] : 136988838
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 128542211
+['L4_UPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 127050785
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   '] : 121555290
+['L6_TPC:A ', 'L6_BPC   ', 'L6_IPC   '] : 121220311
+['L4_UPC   ', 'L5_TPC:A ', 'L5_TPC:A '] : 119297047
+['L6_BPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 118491432
+['L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 116850708
+['L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A '] : 113240696
+['L4_UPC   ', 'L3_TPC:A ', 'L3_TPC:A '] : 111841009
+['L4_TPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 111153953
+['L6_TPC:A ', 'L6_IPC   ', 'L6_BPC   '] : 110807546
+['L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:B '] : 110197168
+['L6_BPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 110186012
+['L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 108958847
+['L4_UPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 108048102
+['L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A '] : 107981335
+['L6_TPC:A ', 'L6_IPC   ', 'L6_HPC   '] : 106235814
+['L5_TPC:B ', 'L5_TPC:A ', 'L5_TPC:A '] : 105809585
+['L5_TPC:B ', 'L5_TPC:B ', 'L5_TPC:A '] : 105705585
+['L6_IPC   ', 'L6_TPC:A ', 'L6_BPC   '] : 105179614
+['L6_BPC   ', 'L6_IPC   ', 'L6_IPC   '] : 104360949
+['L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 104349185
+['L6_BPC   ', 'L6_IPC   ', 'L6_HPC   '] : 103311410
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 103242100
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 102477969
+['L5_TPC:A ', 'L5_TPC:A ', 'L5_TPC:A '] : 102398800
+['L4_TPC   ', 'L3_TPC:A ', 'L3_TPC:A '] : 102177067
+['L5_TPC:A ', 'L5_TPC:B ', 'L5_TPC:A '] : 101772290
+['L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 101044661
+['L6_IPC   ', 'L6_TPC:A ', 'L6_HPC   '] : 99858312
+['L6_IPC   ', 'L6_BPC   ', 'L6_TPC:A '] : 99423787
+['L5_TPC:B ', 'L5_TPC:B ', 'L5_TPC:B '] : 97348045
+['L5_TPC:B ', 'L5_TPC:A ', 'L5_TPC:B '] : 97295214
+['L3_TPC:A ', 'L3_TPC:B ', 'L3_TPC:A '] : 95201089
+['L6_IPC   ', 'L6_BPC   ', 'L6_IPC   '] : 94796505
+['L6_IPC   ', 'L6_BPC   ', 'L6_HPC   '] : 94607786
+['L5_TPC:A ', 'L5_TPC:A ', 'L5_TPC:B '] : 94037969
+['L5_TPC:A ', 'L5_TPC:B ', 'L5_TPC:B '] : 93652358
+['L6_UPC   ', 'L6_IPC   ', 'L6_HPC   '] : 93102146
+['L3_TPC:A ', 'L3_TPC:A ', 'L2_TPC:B '] : 92714689
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   '] : 90296518
+['L6_TPC:A ', 'L6_BPC   ', 'L6_HPC   '] : 86551620
+dim 3
+['L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A '] : 313158910
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 287111248
+['L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 285982408
+['L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B '] : 265185180
+['L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 248426866
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 234286759
+['L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 180767343
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 165706597
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 159739415
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 151505177
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 149737636
+['L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 147690278
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 145298679
+['L3_TPC:A ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B '] : 144155744
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 141051301
+['L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   '] : 138633287
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 137559812
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 134515666
+['L6_BPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 134453994
+['L6_TPC:A ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   '] : 134096621
+['L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 132394073
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 131991406
+['L6_BPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 131540119
+['L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:B '] : 130220367
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 129083646
+['L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 128349719
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 128208200
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A '] : 126383059
+['L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 126088120
+['L6_TPC:A ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   '] : 123858577
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A '] : 122498598
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 121937033
+['L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 119976865
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_HPC   '] : 119118446
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 116680219
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_BPC   '] : 116115192
+['L6_IPC   ', 'L6_TPC:A ', 'L6_BPC   ', 'L6_IPC   '] : 115505829
+['L6_IPC   ', 'L6_BPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 115471234
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_HPC   '] : 114411268
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 114145048
+['L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 110977227
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 110607873
+['L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:B ', 'L3_TPC:A '] : 109754155
+['L6_BPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   '] : 108678490
+['L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 108516065
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_BPC   ', 'L6_IPC   '] : 108047464
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_BPC   '] : 107953628
+['L6_TPC:A ', 'L6_BPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 107411577
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 107163683
+['L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 106503742
+dim 4
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 100667305
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 95142337
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 91702931
+['L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 74167132
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 71596853
+['L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B '] : 69971740
+['L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A '] : 66167030
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 60055344
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 57667559
+['L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 55732481
+['L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 49627102
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 48913000
+['L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 41694154
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 41462666
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 41379044
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 40524076
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 39773966
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 39563955
+['L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 38961824
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 38948255
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 38276126
+['L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 38248347
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 36648295
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 36557828
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   '] : 36491852
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 36356031
+['L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 35713567
+['L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 35668051
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 35381508
+['L6_BPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 34822765
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 34813973
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 34806590
+['L6_BPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 34450032
+['L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 34177468
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 33862485
+['L6_TPC:A ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 33749538
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 33744785
+['L6_TPC:A ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 33627878
+['L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 33318832
+['L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 33269912
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A '] : 32741725
+['L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 32684027
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 32609660
+['L3_TPC:A ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B '] : 32574974
+['L6_BPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 32009762
+['L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 31567173
+['L6_TPC:A ', 'L6_BPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 31161514
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A '] : 31156177
+['L4_TPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 31053538
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A '] : 31036216
+dim 5
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 12344615
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 12037101
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 10482593
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 8307802
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 6507489
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 6467843
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 6076322
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 5333584
+['L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B '] : 4479353
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 4453090
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   '] : 4215377
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 4205346
+['L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 4154312
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 4003606
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 3762474
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 3536836
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   '] : 3411289
+['L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A ', 'L3_TPC:A '] : 3343436
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 3266396
+['L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 3089998
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 3088274
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 3082560
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 3050856
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 3024533
+['L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 2885997
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 2862089
+['L6_TPC:A ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2854840
+['L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2849305
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 2825958
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2820318
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 2818133
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2807768
+['L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 2797917
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2797403
+['L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2792170
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 2780810
+['L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2763757
+['L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 2750767
+['L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2718856
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2695345
+['L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2664486
+['L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2652248
+['L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2636183
+['L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2624589
+['L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 2616917
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2616604
+['L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2610808
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   '] : 2595869
+['L6_TPC:A ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2592641
+['L6_IPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2586746
+dim 6
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 785972
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 520166
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 357569
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 295919
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 237527
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 227962
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   '] : 200844
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 174327
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 158047
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 152350
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 152147
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 142616
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   '] : 126201
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 115123
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_SSC   '] : 111304
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 105151
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 103086
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 102421
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 100745
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 99261
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 92400
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 91756
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 89481
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 86351
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 84816
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 78652
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 77817
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 77393
+['L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B ', 'L2_TPC:B '] : 77212
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 75893
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 75401
+['L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 75093
+['L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 74833
+['L6_TPC:A ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 74747
+['L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 72935
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 72919
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 72715
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 72632
+['L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 72513
+['L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 72300
+['L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 72254
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 71842
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 71838
+['L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 71774
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 71585
+['L6_TPC:A ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 70878
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 70732
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 70545
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 70359
+['L6_TPC:A ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 70181
+dim 7
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 21020
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 8034
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 4938
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 4617
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   '] : 3591
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 2876
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 2741
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 2711
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 2335
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 2099
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_SSC   '] : 1998
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 1918
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   '] : 1757
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 1555
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 1511
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 1386
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 1281
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L5_TPC:A '] : 1242
+['L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 1213
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 1199
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 1168
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_SSC   ', 'L4_UPC   '] : 1146
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 1105
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 1093
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 1084
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 1070
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   '] : 1040
+['L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 980
+['L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 943
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 924
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_SSC   ', 'L4_UPC   ', 'L4_UPC   '] : 909
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 905
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 897
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 891
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 890
+['L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 890
+['L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 880
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 849
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_TPC   '] : 846
+['L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 844
+['L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 842
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   '] : 841
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 837
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 832
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 822
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 818
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 814
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 808
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 801
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 799
+dim 8
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 393
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L5_TPC:A '] : 42
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   '] : 42
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 37
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_SSC   '] : 35
+['L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_HPC   '] : 31
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_SSC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 27
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   '] : 26
+['L6_BPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 26
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   '] : 25
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_HPC   '] : 24
+['L6_UPC   ', 'L6_BPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 24
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L3_TPC:B ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 21
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_TPC   '] : 19
+['L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_HPC   '] : 19
+['L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 18
+['L6_UPC   ', 'L6_BPC   ', 'L6_BPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 18
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L6_HPC   '] : 17
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   '] : 17
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 17
+['L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 16
+['L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 16
+['L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_HPC   '] : 16
+['L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 16
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 15
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L6_IPC   '] : 15
+['L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   '] : 15
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_HPC   '] : 15
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   '] : 15
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 15
+['L6_IPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 14
+['L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 14
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_HPC   '] : 14
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 14
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_TPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 14
+['L6_IPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 14
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 14
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 14
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   '] : 14
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 13
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 13
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 13
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 13
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 13
+['L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 13
+['L6_BPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_HPC   '] : 13
+['L6_IPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L6_IPC   '] : 13
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   '] : 13
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 13
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_TPC:A '] : 12
+dim 9
+['L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   ', 'L4_UPC   '] : 14
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L6_HPC   '] : 6
+['L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 6
+['L6_IPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 6
+['L6_UPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 5
+['L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 5
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_HPC   ', 'L6_HPC   '] : 4
+['L6_BPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 4
+['L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 4
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_HPC   ', 'L6_HPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L5_TPC:A '] : 4
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L6_HPC   '] : 4
+['L6_IPC   ', 'L6_BPC   ', 'L6_TPC:A ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:C ', 'L6_IPC   ', 'L6_IPC   '] : 3
+['L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 3
+['L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A '] : 3
+['L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L6_HPC   '] : 3
+['L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   '] : 3
+['L6_UPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:C ', 'L6_IPC   '] : 3
+['L6_IPC   ', 'L6_NGC   ', 'L6_HPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   '] : 2
+['L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_HPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_BPC   '] : 2
+['L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_BPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L5_TPC:A '] : 2
+['L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:C ', 'L6_UPC   ', 'L6_IPC   '] : 2
+['L6_IPC   ', 'L6_NGC   ', 'L6_HPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 2
+['L6_IPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_HPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:C ', 'L6_IPC   ', 'L6_HPC   '] : 2
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:C ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_HPC   '] : 2
+['L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_HPC   '] : 2
+['L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_HPC   ', 'L6_HPC   '] : 2
+['L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_HPC   ', 'L6_HPC   '] : 2
+['L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_HPC   ', 'L6_HPC   '] : 2
+['L6_IPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_BPC   ', 'L6_HPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_HPC   ', 'L6_UPC   ', 'L6_HPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L5_TPC:A '] : 2
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:A '] : 2
+['L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_HPC   ', 'L6_HPC   '] : 2
+['L6_BPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:C ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_HPC   '] : 2
+['L6_BPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_TPC:A ', 'L6_IPC   ', 'L6_BPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_TPC:C '] : 2
+['L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L6_HPC   '] : 2
+['L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_BPC   ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_HPC   ', 'L5_TPC:A '] : 2
+['L6_BPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   '] : 2
+['L6_IPC   ', 'L6_NGC   ', 'L6_UPC   ', 'L6_HPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_BPC   ', 'L6_UPC   ', 'L6_MC    ', 'L6_BPC   ', 'L6_IPC   ', 'L6_IPC   '] : 2
+['L6_UPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_IPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_HPC   ', 'L6_TPC:A '] : 2
+['L6_BPC   ', 'L6_IPC   ', 'L6_IPC   ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_UPC   ', 'L6_TPC:A ', 'L6_TPC:A ', 'L6_IPC   ', 'L6_IPC   '] : 2
