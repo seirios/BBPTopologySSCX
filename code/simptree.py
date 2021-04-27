@@ -1,6 +1,6 @@
 # py-simptree: process simplex trees in python
 # AUTHOR: Sirio Bolaños Puchet <sirio.bolanospuchet@epfl.ch>
-# LAST MODIFIED: 2021-04-21
+# LAST MODIFIED: 2021-04-27
 
 import treelib
 import tarfile
@@ -26,7 +26,6 @@ def print_simplices(root, maximal_only=False):
     """
     Print simplex members, source to sink, mark with '*' if maximal.
     """
-    sink = root.root  # sink GID (tree root)
     gids = []
     for nid in root.expand_tree(mode=treelib.Tree.DEPTH):
         node = root[nid]
@@ -94,18 +93,21 @@ def load_simptrees(file_tar, maxdim=None, maxproc=None, verbose=False):
         import sys
 
     simptrees = []
-    with tarfile.open(file_tar) as tf:
+    with tarfile.open(file_tar, 'r:') as tf:
         for i, memb in enumerate(tf.getmembers()):
             if maxproc is not None and i >= maxproc:
                 break
             if verbose:
                 print("Now processing file {}".format(memb.name), file=sys.stderr)
             with tf.extractfile(memb) as f:
-                compr_data = f.read()
+                compr_data = f.read1(memb.size)
                 assert(len(compr_data) == memb.size)
                 data = brotli.decompress(compr_data)
+                del compr_data  # free early
                 tree = parse_simptree(data, maxdim)
+                del data  # free early
                 simptrees.append(tree)
+
     return simptrees
 
 
@@ -134,7 +136,8 @@ if __name__ == "__main__":
     maxproc = args.maxproc  # max files to process
     for fname in args.file_tar:
         simptrees = load_simptrees(fname, args.maxdim, maxproc, args.verbose)
-        maxproc -= len(simptrees)
+        if maxproc is not None:
+            maxproc -= len(simptrees)
 
         if args.print:
             for tree in simptrees:
@@ -145,7 +148,7 @@ if __name__ == "__main__":
                 tree_counts.append(counts)
                 tree_counts_max.append(counts_max)
         
-        if maxproc == 0:
+        if maxproc is not None and maxproc == 0:
             break
 
     if args.print:
