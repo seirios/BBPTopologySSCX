@@ -31,7 +31,8 @@ def simplices(T, maximal_only=False):
             ret.extend([[(gid, m)] + smpl for smpl in recursive(C)])
         return ret
     ret = recursive(T)[1:]
-    ret = [([x[0] for x in simp], numpy.sum([x[1] for x in simp])) for simp in ret]
+    ret = [([x[0] for x in simp], numpy.sum([x[1] for x in simp]))
+           for simp in ret]
     return ret if not maximal_only else [x for x in ret if x[1]]
 
 
@@ -48,7 +49,7 @@ def simplex_counts(T, maximal_only=False):
                 ret[dim + 1] = ret.get(dim + 1, 0) + count
         return ret
     ret = recursive(T, False)
-    ret.pop(-1, None) 
+    ret.pop(-1, None)
     return ret
 
 
@@ -79,7 +80,8 @@ def parse_lwtree_np(bytes_struc):
     raw_splt = raw.split("\n")
     lvls = [row.count(" ") for row in raw_splt]
     maxs = [row.count("*") for row in raw_splt]  # maximal simplex indicator
-    gids = [int(row[:-1]) if maxs[i] else int(row) for i, row in enumerate(raw_splt) if len(row) > 0]
+    gids = [int(row[:-1]) if maxs[i] else int(row)
+            for i, row in enumerate(raw_splt) if len(row) > 0]
     return build_tree_lw(lvls, gids, maxs)
 
 
@@ -91,7 +93,8 @@ def load_lwtrees(file_tar, maxproc=None, show_progress=True):
     with tarfile.open(file_tar, 'r:') as tf:
         membs = tf.getmembers()
         for i, memb in iter_status_fun(show_progress, enumerate(membs),
-                                       total=numpy.minimum(maxproc, len(membs))):
+                                       total=numpy.minimum(maxproc, len(membs))
+                                       if maxproc is not None else len(membs)):
             if maxproc is not None and i >= maxproc:
                 break
             with tf.extractfile(memb) as f:

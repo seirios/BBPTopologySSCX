@@ -36,12 +36,18 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser("py-simptree")
-    parser.add_argument("file_tar", nargs='+', help="TAR archive holding brotli-compressed text trees")
-    parser.add_argument("-c","--count", default=True, action="store_true", help="Count simplices per dimension")
-    parser.add_argument("-m","--maximal-only", default=False, action="store_true", help="Print maximal simplices only")
-    parser.add_argument("-p","--print", default=False, action="store_true", help="Print simplices")
-    parser.add_argument("--no-progress", default=False, action="store_true", help="Do not show progress")
-    parser.add_argument("--maxproc", type=int, default=None, help="Process up to this number of files in total")
+    parser.add_argument("file_tar", nargs='+',
+                        help="TAR archive holding brotli-compressed text trees")
+    parser.add_argument("-c", "--count", default=True, action="store_true",
+                        help="Count simplices per dimension")
+    parser.add_argument("-m", "--maximal-only", default=False, action="store_true",
+                        help="Print maximal simplices only")
+    parser.add_argument("-p", "--print", default=False, action="store_true",
+                        help="Print simplices (source to sink)")
+    parser.add_argument("--no-progress", default=False, action="store_true",
+                        help="Do not show progress")
+    parser.add_argument("--maxproc", type=int, default=None,
+                        help="Process up to this number of files in total")
 
     import sys
     if len(sys.argv) == 1:
@@ -66,7 +72,7 @@ if __name__ == "__main__":
                 counts, counts_max = count_simplices(tree)
                 tree_counts.append(counts)
                 tree_counts_max.append(counts_max)
-        
+
         if maxproc is not None and maxproc == 0:
             break
 
@@ -76,6 +82,7 @@ if __name__ == "__main__":
         from functools import reduce
         from collections import Counter
         counts = reduce(lambda x, y: Counter(x) + Counter(y), tree_counts)
-        counts_max = reduce(lambda x, y: Counter(x) + Counter(y), tree_counts_max)
+        counts_max = reduce(lambda x, y: Counter(x) + Counter(y),
+                            tree_counts_max)
         for k in counts.keys():
             print('{} {} {}'.format(k, counts[k], counts_max.get(k, 0)))
