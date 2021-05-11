@@ -18,7 +18,7 @@ except ImportError:
 
 def simplices(T, maximal_only=False):
     """
-    Returns a list of tuples, where:
+    Recursively walk a tree and return a list of tuples, where:
 
     [0]: list of GIDs in simplex
     [1]: maximality indicator
@@ -30,9 +30,7 @@ def simplices(T, maximal_only=False):
         for (gid, m), C in T.items():
             ret.extend([[(gid, m)] + smpl for smpl in recursive(C)])
         return ret
-    ret = []
-    for (gid, m), C in T.items():
-        ret.extend([[(gid, m)] + smpl for smpl in recursive(C)])
+    ret = recursive(T)[1:]
     ret = [([x[0] for x in simp], numpy.sum([x[1] for x in simp])) for simp in ret]
     return ret if not maximal_only else [x for x in ret if x[1]]
 
